@@ -1,0 +1,255 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* start navbar */
+.header {
+    width: 100%;
+    background-color: black;
+
+}
+.navbar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    list-style: none;
+    position: fixed;
+    top: 0;
+    z-index: 6;
+    background-color: black;
+}
+.navbar li a {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+.navbar li:hover a {
+    background-color: #808080;
+    padding: 15px 190px;
+}
+/* end navbar */
+/* start hero */
+.hero {
+    width: 100%;
+}
+.hero .img {
+    width: 100%;
+    height: calc(100vh - 50px);
+    background-image: url("../img/coffeehouse.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.hero .three, .four {
+    color: #fff;
+    position: absolute;
+}
+
+.hero h1 {
+    font-size: 100px;
+    max-width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+.hero .three {
+    bottom: 0;
+    right: 0;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.hero .four {
+    bottom: 0;
+    left: 0;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    background-color: black;
+    padding: 3px;
+}
+/* end hero */
+/* ############# */
+/* start main container */
+.main-container {
+    background-color: #F5F5F5;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 200px 0 200px;
+}
+.container h2 {
+    background-color: black;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px;
+    margin: 10px auto;
+}
+.container p {
+    width: 550px;
+    margin-top: 50px;
+}
+.container .paragraph {
+    background-color: #DBD7D2;
+    outline: 1px solid transparent;
+    border-left: 4px solid gray;
+    padding-left: 5px;
+}
+ .information .open-hours,  .information .adress{
+    font-size: 18px;
+    margin-left: -220px;
+}
+.container img {
+    width: 550px;
+    margin: 10px 0;
+}
+/* end main container */
+/* ########## */
+/* start menu container */
+.menu-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+}
+.menu-container h2 {
+    background-color: black;
+    color: #fff;
+    padding: 5px;
+    margin: 20px auto;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 200px;
+}
+.menu-container .btn {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.menu-container .btn button {
+    padding: 16px 127px;
+}
+.menu-container .btn .active {
+    background-color: gray;
+    border: 1px solid gray;
+}
+.Menu {
+    width: 561px;
+    margin-left: 25px;
+    word-spacing: 2px;
+    border: 3px solid gray;
+    padding-left: 7px;
+}
+.Menu h3 {
+    margin-top: 10px;
+}
+.Menu p {
+    margin-top: 10px;
+}
+.coffee-house img {
+    width: 550px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+/* end menu container */
+/* start footer */
+.footer {
+    width: 100%;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer h2 {
+    background-color: black;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    margin: 20px;
+}
+.footer p {
+    margin-left: -195px;
+    margin-bottom: -20px;
+}
+.footer img {
+    width: 557px;
+    margin-top: 40px;
+}
+.input {
+    width: 100%;
+    background-color: #fdf5e6;
+}
+
+.footer .input .p-one {
+    margin: 12px 400px;
+}
+.footer .input .p-two {
+    margin: 40px 400px;
+
+}
+.input-fields {
+    background-color: #F5F5F5;
+    width: 550px;
+    height: 400px;
+    margin-left: 400px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.input {
+    background-color: #F5F5F5;
+}
+input {
+    display: block;
+    width: 560px;
+    height: 50px;
+    margin-top: -97px;
+    padding: 10px;
+    font-size: 17px;
+}
+input:focus {
+    background-color: gray;
+    color: #fff;
+}
+.input-fields button {
+    margin: -121px 400px 0 -40px;
+    padding: 6px;
+    background-color: black;
+    color: #fff;
+    border: 1px solid black;
+    text-transform: uppercase;
+}
+.text {
+    width: 100%;
+    background-color: #F5F5F5;
+
+}
+.footer .footer-text {
+    font-size: 18px;
+    font-weight: 200;
+    color: #808080;
+    margin: 40px 0 20px 0;
+}
+.footer .footer-text a{
+    color: #808080;
+}
+/* end footer */
